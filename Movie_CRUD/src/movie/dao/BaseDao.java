@@ -7,7 +7,7 @@ public class BaseDao {
 public static Connection getCon(){
 	Connection con = null;
 	try {
-		con = DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Hari/Documents/Movie.accdb");
+		con = DriverManager.getConnection("jdbc:ucanaccess:Movie.accdb");
 	} catch (Exception e) {
 		e.printStackTrace();
 	}
